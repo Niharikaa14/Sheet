@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 55px;
+}
+
+.content{
+    font-family: 'Potta One', cursive;
+}
+
+.container{
+   
+    width: 50vw;
+    margin: auto;
+    padding: 32px 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
+
+.logo {
+padding: 0 20px;
+
+}
+
+.logo img {
+    width: 35px;
+
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    background-color: blue !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px  !important;
+}
